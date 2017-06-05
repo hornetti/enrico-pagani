@@ -1,0 +1,33 @@
+{% extends 'default.twig' %}
+
+{% block page %}
+
+    <div><b>github\horn></b> bio init</div>
+    <h1>{{ myName }}</h1>
+    <h2>{{ myDescription }}</h2>
+    <h3>{{ myBirth }}</h3>
+    <h4>{{ myBio }}</h4>
+    <div><b>github\horn></b> show link</div>
+    <span>
+    <a href="{{ linkGitHub }}" target="_blank">
+        <p>{{ referenceGitHub }}</p></a>
+    </span>
+    <span>
+    <a href="{{ linkLinkedin }}" target="_blank">
+        <p>{{ referenceLinkedin }}</p></a>
+    </span>
+    <span>
+    <a href="{{ linkGmail }}" target="_blank">
+        <p>{{ referenceGmail }}</p></a>
+    </span>
+    <span>
+    <a href="{{ linkCodepen }}" target="_blank">
+        <p>{{ referenceCodepen }}</p></a>
+    </span>
+    <span>
+    <a href="{{ linkCV }}" target="_blank">
+        <p>{{ referenceCV }}</p></a>
+    </span>
+    <div><b>github\horn></b> <span class="cursor">|</span></div>
+
+{% endblock %}
