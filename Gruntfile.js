@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					cwd: 'source/sass/',
+					cwd: 'src/sass/',
 					src: '*.scss',
 					dest: 'build/css/',
 					ext: '.css'
@@ -15,9 +15,9 @@ module.exports = function(grunt) {
 			twig_task : {
 				files: [
 				{
-				    data: "source/json/bio.json",
+				    data: "src/json/bio.json",
 				    expand: true,
-				    cwd: "source/twig/",
+				    cwd: "src/twig/",
 				    src: ["*.twig"],
 				    dest: "build/",
 				    ext: ".html"
@@ -40,11 +40,11 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			sass: {
-				files: [ 'source/sass/*.scss' ],
+				files: [ 'src/sass/*.scss' ],
 				tasks: ['sass', 'autoprefixer', 'cssmin']
 			},
 			twig: {
-				files: [ 'source/twig/*.twig' ],
+				files: [ 'src/twig/*.twig' ],
 				tasks: [ 'twigRender' ]
 			},
 		},
