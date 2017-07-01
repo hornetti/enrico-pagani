@@ -1,0 +1,16 @@
+@mixin titolo {
+    font-size: 90px;
+    font-family: 'Permanent Marker', cursive;
+    // font-family: 'Pacifico', cursive;
+    // font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+    color: $text;
+
+}
+
+@mixin menu {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: $secondcolor;
+}

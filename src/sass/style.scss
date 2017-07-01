@@ -1,4 +1,4 @@
-@import "mixins";
+@import "fonts";
 @import "colors";
 @import "links";
 @import "layouts";
@@ -8,8 +8,14 @@ body {
     margin: 0;
 }
 
-div, h1, h2, h3, h4, p, span {
-    margin: 0;
+h1 {
+    margin: 180px;
     padding: 0;
-    @include FontShell;
+    @include titolo;
+}
+
+h2 {
+	margin: 42px;
+	padding: 0;
+	@include menu;
 }
