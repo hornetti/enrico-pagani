@@ -1,6 +1,6 @@
 # Ricettario di Enrico Pagani - Repository
 
-First project with package manager [npm] and task runner [grunt] in Ideato.
+Second project with package manager [npm] and task runner [grunt] in Ideato.
 
 ---
 ### Personal website [hornetti.github.io/enrico-pagani]
