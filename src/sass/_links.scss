@@ -1,3 +1,9 @@
 a {
+	color: inherit;
     text-decoration: none;
+	padding: 12px;
+    border-bottom: 2px solid $bg;
+    &:hover, &:focus {
+        border-bottom: 2px solid $title;
+    }
 }

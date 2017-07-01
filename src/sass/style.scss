@@ -9,13 +9,14 @@ body {
 }
 
 h1 {
-    margin: 180px;
+    margin: 186px;
     padding: 0;
-    @include titolo;
+    @include home--titolo;
+    color: $title;
 }
 
 h2 {
-	margin: 42px;
-	padding: 0;
-	@include menu;
+	margin: 21px;
+	@include home--menu;
+    color: $menu;
 }
