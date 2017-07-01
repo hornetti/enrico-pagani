@@ -29,4 +29,4 @@ First project with package manager [npm] and task runner [grunt] in Ideato.
 	
 	* uglify
 
-[hornetti.github.io]: https://hornetti.github.io/enrico-pagani/build/
+[hornetti.github.io/enrico-pagani]: https://hornetti.github.io/enrico-pagani/build/
